@@ -1,0 +1,63 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link rel="stylesheet" href="style.css" />
+    <title>The Big Fat String Exercise</title>
+  </head>
+  <body>
+    <div id="content">
+      <h1>Special String Converter</h1>
+      <h2>Give it a try!</h2>
+
+      <input
+        type="text"
+        id="addtext"
+        name="addtext"
+        placeholder="Search here..."
+      /><br />
+
+      <select id="dropdown" name="dropdown">
+        <option value="opt1">
+          If input is a first name: Make the first character in a name
+          uppercase, and the rest lowercase
+        </option>
+        <option value="opt2">
+          If input is a full name: Find the first name
+        </option>
+        <option value="opt3">
+          If input is a full name: Find the length of the first name
+        </option>
+        <option value="opt4">
+          If input is a full name: Find the middle name start and end position,
+          and the middle name itself in a full name string
+        </option>
+        <option value="opt5">
+          If input is a filename: Check if a filename is .png or .jpg
+        </option>
+        <option value="opt6">
+          If input is a password: Hide a password with the correct number of *s
+        </option>
+        <option value="opt7">
+          With any input: Make the third character uppercase
+        </option>
+        <option value="opt8">
+          With any input: Make a character uppercase, if it follows a space or a
+          hyphen
+        </option>
+      </select>
+
+      <button id="button">GENERATE RESULT</button><br />
+
+      <input
+        type="text"
+        id="result"
+        name="result"
+        placeholder="See the result here..."
+      /><br />
+    </div>
+  </body>
+  <script src="script.js"></script>
+</html>

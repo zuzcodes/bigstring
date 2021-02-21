@@ -1,0 +1,93 @@
+@import url("https://fonts.googleapis.com/css2?family=Sen:wght@400;800&display=swap");
+
+* {
+  box-sizing: border-box;
+}
+
+body {
+  font-family: "Sen", sans-serif;
+  background-color: #2a2e37;
+  width: 25em;
+  margin: 0 auto;
+}
+
+#content {
+  background-color: #2a2e37;
+  padding-top: 5em;
+}
+
+h1 {
+  font-size: 2.2em;
+  font-weight: 800;
+  color: #00fede;
+  text-align: center;
+}
+
+h2 {
+  font-size: 1.3em;
+  font-weight: 400;
+  color: #f0f8ff;
+  text-align: center;
+}
+
+input {
+  width: 100%;
+  padding: 1.2em;
+  margin-top: 1em;
+
+  background-color: transparent;
+  transition: transform 250ms ease-in-out;
+
+  border-radius: 5em;
+  border: 0.1em solid #f0f8ff;
+  transition: all 250ms ease-in-out;
+
+  font-family: "Sen", sans-serif;
+  color: #f0f8ff;
+  font-size: 1em;
+  letter-spacing: 0.1em;
+}
+
+input::placeholder {
+  font-family: "Sen", sans-serif;
+  color: #f0f8ff;
+  opacity: 60%;
+  text-transform: uppercase;
+  letter-spacing: 0.1em;
+}
+
+input:hover,
+input:focus {
+  padding: 1.2em;
+  outline: 0;
+  border: 0.1em solid transparent;
+  border-bottom: 0.05em solid #f0f8ff;
+  border-radius: 0;
+  background-position: 100% center;
+}
+
+#button {
+  width: 100%;
+  padding: 1.2em;
+  margin-top: 1em;
+  border-radius: 5em;
+
+  background-color: aqua;
+  border: none;
+
+  font-family: "Sen", sans-serif;
+  color: #2a2e37;
+}
+
+#dropdown {
+  width: 100%;
+  padding: 1.2em;
+  margin-top: 1em;
+  border-radius: 5em;
+
+  background-color: #f0f8ff;
+  border: none;
+
+  font-family: "Sen", sans-serif;
+  color: #2a2e37;
+}
